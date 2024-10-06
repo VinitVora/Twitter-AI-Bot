@@ -61,7 +61,7 @@ A Python-based Twitter bot that generates professional-sounding tweets by summar
 ```
 3. **The bot will summarize the website content, generate an image, and post the tweet automatically.**
 
-### EndPoints**:
+### EndPoints
 ```
    GET /tweets
 ```
@@ -74,7 +74,7 @@ A Python-based Twitter bot that generates professional-sounding tweets by summar
    Sends a tweet with the summary and the generated image.
 ```
 
-### Contributing**:
+### Contributing:
 
 1. **Contributions are welcome! Please follow these steps**:
 ```
