@@ -41,5 +41,13 @@ A Python-based Twitter bot that generates professional-sounding tweets by summar
    git clone https://github.com/vinitvora28/twitter-ai-assistant.git
    cd twitter-ai-assistant
 
-   pip install -r requirements.txt
-   
+2. **Set up environment variables**:
+   ```bash
+   Create a .env file in the root of the project and add your API keys:
+   OPENAI_API_KEY=your_openai_api_key
+   API_KEY=your_twitter_api_key
+   API_SECRET_KEY=your_twitter_api_secret_key
+   ACCESS_TOKEN=your_twitter_access_token
+   ACCESS_TOKEN_SECRET=your_twitter_access_token_secret
+
+3. 
