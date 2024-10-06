@@ -11,7 +11,6 @@ A Python-based Twitter bot that generates professional-sounding tweets by summar
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Summarizes content from a given website in 10 words or less.
@@ -42,7 +41,7 @@ A Python-based Twitter bot that generates professional-sounding tweets by summar
    cd twitter-ai-assistant
 
 2. **Set up environment variables**:
-   ```bash
+   ```
    Create a .env file in the root of the project and add your API keys:
    OPENAI_API_KEY=your_openai_api_key
    API_KEY=your_twitter_api_key
@@ -50,4 +49,41 @@ A Python-based Twitter bot that generates professional-sounding tweets by summar
    ACCESS_TOKEN=your_twitter_access_token
    ACCESS_TOKEN_SECRET=your_twitter_access_token_secret
 
-3. 
+### Usage
+
+1. **Run the Flask application**:
+```
+   python app.py
+```
+2. **Trigger the Tweet Generation**:
+ ```
+   Open your web browser and navigate to the following URL, replacing your_service with the service you want to summarize: http://127.0.0.1:5000/tweets?service=your_service
+```
+3. **The bot will summarize the website content, generate an image, and post the tweet automatically.**
+
+### EndPoints**:
+```
+   GET /tweets
+```
+1. **Parameters**:
+```
+   service: A string representing the service you want to summarize (e.g., amazon, example).
+```
+2. **Response**:
+```
+   Sends a tweet with the summary and the generated image.
+```
+
+### Contributing**:
+
+1. **Contributions are welcome! Please follow these steps**:
+```
+   Fork the repository.
+   Create a new branch (git checkout -b feature-YourFeature).
+   Make your changes and commit them (git commit -m 'Add some feature').
+   Push to the branch (git push origin feature-YourFeature).
+   Create a new Pull Request.
+```
+### Notes for Customization:
+- Update the API key placeholders with actual values or instructions for obtaining them.
+- Adjust any section according to your project’s specific details.
