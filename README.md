@@ -38,5 +38,8 @@ A Python-based Twitter bot that generates professional-sounding tweets by summar
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/twitter-ai-assistant.git
+   git clone https://github.com/vinitvora28/twitter-ai-assistant.git
    cd twitter-ai-assistant
+
+   pip install -r requirements.txt
+   
