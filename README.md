@@ -1,5 +1,3 @@
-# Twitter-AI-Bot
-
 # Twitter AI Assistant
 
 A Python-based Twitter bot that generates professional-sounding tweets by summarizing content from a provided website. The bot leverages the OpenAI API for text generation and image creation, and tweets the results on Twitter.
